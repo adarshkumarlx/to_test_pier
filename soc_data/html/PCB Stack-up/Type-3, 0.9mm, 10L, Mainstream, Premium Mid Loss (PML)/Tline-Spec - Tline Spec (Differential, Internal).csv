@@ -1,7 +1,0 @@
-Trace,Tline Type,Routing,I/O,Trace Width (um),Intra-Pair (um),S - ES,S - Non-ES,Z (Default),Z (Min),Z (Max),A,"K, S - ES","K, S - Non-ES"
-B*,MS,"1, 10",(Internal) eUSB2V2,81,88,300,300,93,,,-0.92,-0.17,0.32
-B*,SL,"3, 6, 8",(Internal) eUSB2V2,75,88,300,300,78,,,-0.83,0.03,0.03
-B*,DSL,"5, 6",(Internal) eUSB2V2,75,88,300,300,87,,,-0.75,0.16,0.16
-M*,MS,"1, 10",(Internal) eUSB2V2,120,90,750,500,80,,,-0.86,-0.07,0.11
-M*,SL,"3, 6, 8",(Internal) eUSB2V2,80,130,450,500,80,,,-0.8,0.002,0.001
-M*,DSL,"5, 6",(Internal) eUSB2V2,100,120,450,500,80,,,-0.71,0.024,0.013
