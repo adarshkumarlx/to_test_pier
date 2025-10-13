@@ -1,7 +1,0 @@
-Note
-"Based on Tline Spec (Single Ended) table recommendation, the CLK - Any (um) spacing requirement shall be applicable for:
-1) CLK to DATA signals on similar signaling group 
-2) CLK to DATA signals from other signaling group
-3) CLK to CLK signals from other signaling group 
-For CLK to pseudo static signals, the spacing between the CLK to others can be relaxed and used the DATA - Any (um) spacing requirement. 
-Example of pseudo static signal: RESET, ALERT, Chip Select (CS), Request (REQ), INTERRUPT, INIT."
