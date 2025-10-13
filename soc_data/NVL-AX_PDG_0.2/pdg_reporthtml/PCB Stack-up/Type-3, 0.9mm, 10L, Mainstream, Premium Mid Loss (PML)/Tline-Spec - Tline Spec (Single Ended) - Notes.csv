@@ -1,0 +1,11 @@
+Note
+"1) Based on Tline Spec (Single Ended) table recommendation, the CLK - Any (um) spacing requirement shall be applicable for: 	
+     a) CLK to DATA signals on similar signaling group.	
+     b) CLK to DATA signals from other signaling group.
+     c) CLK to CLK signals from other signaling group. 
+
+2) For CLK to pseudo static signals, the spacing between the CLK to others can be relaxed and used the DATA - Any (um) spacing requirement. 
+
+     Example of pseudo static signal: RESET, ALERT, Chip Select (CS), Request (REQ), INTERRUPT, INIT.
+
+3) CPU Sideband IO refers to CATERR#, EPD_ON, FORCEPR#, THERMTRIP#, VDD2PWRGOOD signals."
