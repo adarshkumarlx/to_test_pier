@@ -1,0 +1,47 @@
+Trace,Tline Type,Routing Layers,I/O,Trace Width (um),Intra-Pair (um),S - ES (um),S - Non-ES (um),Z (Default) (ohm),Z (Min) (ohm),Z (Max) (ohm),A (dB/inch @ 5GHz),"K, S - ES (%)","K, S - Non-ES (%)"
+B*,MS,"1, 10","CPU PCIe Gen 1-3, Differential Clock (Gen 3 and below support), eUSB2, TCP AUX, TCP DP AUX, TCP USB 3.2 Type-A, USB 2.0",75,88,200,300,95,,,-0.93,-0.063,0.312
+B*,MS,"1, 10","CSI DPHY, HDMI, eDP",75,88,250,375,95,,,-0.93,-0.134,0.175
+B*,MS,"1, 10",CNVio3,75,88,375,375,95,,,-0.93,-0.136,0.175
+B*,MS,"1, 10","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support), Differential Clock (PCH-CPU Support)",75,88,375,500,95,,,-0.93,-0.136,0.082
+B*,MS,"1, 10",CSI CPHY,81,88,88,375,92,,,-0.95,0.649,0.18
+B*,MS,"1, 10","TCP DP, TCP TBT4, TCP TBT5",81,88,500,500,93,,,-0.92,-0.1,0.086
+B*,MS,"1, 10",CPU PCIe Gen 5,81,88,375,500,93,,,-0.92,-0.146,0.086
+B*,MS,"1, 10","CPU PCIe Gen 4, DMI Gen 5, PCH PCIe Gen 1-4, PCH PCIe Gen 5",81,88,375,375,93,,,-0.92,-0.146,0.18
+B*,MS,"1, 10","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2",81,88,300,300,93,,,-0.92,-0.165,0.318
+B*,SL,"3, 6, 8","CPU PCIe Gen 1-3, Differential Clock (Gen 3 and below support), eUSB2, TCP USB 3.2 Type-A, USB 2.0",75,88,200,300,78,,,-0.83,0.189,0.027
+B*,SL,"3, 6, 8","CSI CPHY, CSI DPHY, HDMI, TCP AUX, TCP DP AUX, eDP",75,88,88,300,78,,,-0.83,1.725,0.027
+B*,SL,"3, 6, 8","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support), Differential Clock (PCH-CPU Support)",75,88,375,500,78,,,-0.83,0.006,0.001
+B*,SL,"3, 6, 8","CNVio3, DMI Gen 5, PCH PCIe Gen 1-4, PCH PCIe Gen 5, PCH USB 3.2 Gen 1, TCP DP, TCP TBT4, TCP TBT5",75,88,375,375,78,,,-0.83,0.006,0.006
+B*,SL,"3, 6, 8","CPU PCIe Gen 4, CPU PCIe Gen 5",75,88,230,500,78,,,-0.83,0.105,0.001
+B*,SL,"3, 6, 8","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2",75,88,300,300,78,,,-0.83,0.027,0.027
+B*,DSL,"5, 6","CSI DPHY, HDMI, TCP AUX, TCP DP AUX, eDP",75,88,88,300,87,,,-0.76,2.67,0.161
+B*,DSL,"5, 6","CPU PCIe Gen 1-3, Differential Clock (Gen 3 and below support), eUSB2, TCP USB 3.2 Type-A, USB 2.0",75,88,200,300,87,,,-0.75,0.583,0.161
+B*,DSL,"5, 6","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support), Differential Clock (PCH-CPU Support)",75,88,375,500,87,,,-0.75,0.062,0.013
+B*,DSL,"5, 6","CPU PCIe Gen 4, DMI Gen 5, PCH PCIe Gen 1-4, PCH PCIe Gen 5, TCP DP, TCP TBT4, TCP TBT5",75,88,375,375,87,,,-0.75,0.062,0.062
+B*,DSL,"5, 6",CPU PCIe Gen 5,75,88,500,500,87,,,-0.75,0.013,0.013
+B*,DSL,"5, 6","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2",75,88,300,300,87,,,-0.75,0.161,0.161
+M*,MS,"1, 10","CPU PCIe Gen 1-3, CSI DPHY, eUSB2, TCP AUX, TCP DP AUX, TCP USB 3.2 Type-A, USB 2.0",120,90,300,300,80,,,-0.86,-0.249,0.352
+M*,MS,"1, 10",Differential Clock (Gen 3 and below support),120,90,300,375,80,,,-0.86,-0.249,0.212
+M*,MS,"1, 10","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support), Differential Clock (PCH-CPU Support)",120,90,500,760,80,,,-0.86,-0.139,0.039
+M*,MS,"1, 10","CPU PCIe Gen 4, eDP, HDMI, PCH PCIe Gen 1-4, TCP DP",120,90,500,500,80,,,-0.86,-0.139,0.108
+M*,MS,"1, 10","CNVio3, TCP TBT4, TCP TBT5",120,90,800,800,80,,,-0.86,-0.055,0.034
+M*,MS,"1, 10","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2",120,90,750,500,80,,,-0.86,-0.065,0.108
+M*,MS,"1, 10","CPU PCIe Gen 5, TCP TBT5 (Post-Channel)",135,125,800,800,80,,,-0.81,-0.071,0.044
+M*,MS,"1, 10","DMI Gen 5, PCH PCIe Gen 5",135,125,800,500,80,,,-0.81,-0.071,0.137
+M*,MS,"1, 10",CSI CPHY,165,950,950,950,80,,,-0.75,-0.133,0.073
+M*,MS,"1, 10",HDMI (Post-Channel),75,110,500,500,100,,,-0.895,-0.111,0.095
+M*,SL,"3, 6, 8","CPU PCIe Gen 1-3, CSI DPHY, eDP, eUSB2, HDMI, TCP AUX, TCP DP AUX, TCP USB 3.2 Type-A",80,130,300,300,80,,,-0.8,0.026,0.026
+M*,SL,"3, 6, 8",Differential Clock (Gen 3 and below support),80,130,300,375,80,,,-0.8,0.026,0.006
+M*,SL,"3, 6, 8","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support)",80,130,500,760,80,,,-0.8,0.001,0
+M*,SL,"3, 6, 8","CNVio3, PCH PCIe Gen 1-4, TCP DP, TCP TBT4, TCP TBT5",80,130,375,375,80,,,-0.8,0.006,0.006
+M*,SL,"3, 6, 8","CPU PCIe Gen 4, CPU PCIe Gen 5",80,130,250,500,80,,,-0.8,0.073,0.001
+M*,SL,"3, 6, 8","Differential Clock (PCH-CPU Support), DMI Gen 5, PCH PCIe Gen 5",80,130,375,500,80,,,-0.8,0.006,0.001
+M*,SL,"3, 6, 8","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2",80,130,450,500,80,,,-0.8,0.001,0.001
+M*,SL,"3, 6, 8",CSI CPHY,82,170,170,500,80,,,-0.8,0.351,0.001
+M*,DSL,"5, 6","CPU PCIe Gen 1-3, CSI DPHY, eDP, eUSB2, HDMI, TCP AUX, TCP DP AUX, TCP USB 3.2 Type-A, USB 2.0",100,120,300,300,80,,,-0.71,0.162,0.162
+M*,DSL,"5, 6",Differential Clock (Gen 3 and below support),100,120,300,375,80,,,-0.71,0.162,0.062
+M*,DSL,"5, 6","Differential Clock (Gen 4 support), Differential Clock (Gen 5 support)",100,120,500,760,80,,,-0.71,0.013,0.001
+M*,DSL,"5, 6","Differential Clock (PCH-CPU Support), DMI Gen 5, PCH PCIe Gen 5",100,120,375,500,80,,,-0.71,0.062,0.013
+M*,DSL,"5, 6","CPU PCIe Gen 4, PCH PCIe Gen 1-4, TCP DP",100,120,375,375,80,,,-0.71,0.062,0.062
+M*,DSL,"5, 6",CPU PCIe Gen 5,100,120,500,500,80,,,-0.71,0.013,0.013
+M*,DSL,"5, 6","CPU USB 3.2 Gen 1, CPU USB 3.2 Gen 2, PCH USB 3.2 Gen 1, PCH USB 3.2 Gen 2, TCP TBT4, TCP TBT5",100,120,450,500,80,,,-0.71,0.024,0.013
