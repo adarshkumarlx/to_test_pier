@@ -1,0 +1,2 @@
+Trace,Tline Type,Routing,I/O,Trace Width (um),Intra-Pair (um),S - ES,S - Non-ES,Z (Default),Z (Min),Z (Max),A,"K, S - ES","K, S - Non-ES"
+M*,SL,12,PCIe Gen 5,94,90,500,500,80,,,,,
