@@ -1,0 +1,6 @@
+Segment,Tline Type,Max Length Segment (mm),Max Length Segment Note
+BO1,MS,6.5,Total BO1+BO2 length should be less than or equal to 12mm max.
+BO2,SL,7.2,
+M,SL,,
+BI1,SL,13,
+BI2,MS,0.5,
