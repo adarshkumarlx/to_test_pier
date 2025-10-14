@@ -1,0 +1,8 @@
+Note
+"Based on Tline Spec (Single Ended) table recommendation, the CLK - Any (um) spacing requirement shall be applicable for; 	
+1) CLK to DATA signals on similar signaling group 	
+2) CLK to DATA and CLK signals from other signaling group  
+
+For CLK to non-toggling signals, the spacing between the CLK to others can be relaxed and used the DATA - Any (um) spacing requirement.  
+
+Please refer to ""TBD_PTL_UH_Proc_Line_BGA_Pkg_Ballout_Mech_Spec_Revxpx.xlsx"" on the Pinlist for non-toggling signals."
