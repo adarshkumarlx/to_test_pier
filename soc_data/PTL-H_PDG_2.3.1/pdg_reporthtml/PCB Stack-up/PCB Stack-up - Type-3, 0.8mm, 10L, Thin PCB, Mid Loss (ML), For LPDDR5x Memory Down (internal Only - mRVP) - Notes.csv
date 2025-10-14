@@ -1,0 +1,2 @@
+Note
+Dielectric thickness of 60um for pre-peg and 50um for core has been chosen specifically on SL layers to ensure enhanced POR memory speed target of 9600. Stack-up with thicker dielectrics may not be able to meet 9600MT/s speed bin due to higher cross talk co-efficients than those specified in memory Tline spec

@@ -1,0 +1,60 @@
+Trace,Tline Type,Routing Layers,I/O,Trace Width (um),Intra-Pair (um),S - ES (um),S - Non-ES (um),Z (Default) (ohm),Z (Min) (ohm),Z (Max) (ohm),A (dB/inch @ 5GHz),"K, S - ES (%)","K, S - Non-ES (%)"
+B*,MS,"1, 8","CNVio2, CNVio3, Differential Clock (Gen3 and below support), PCIe Gen 1-3, Type-C USB, Type-C USB+DP, USB2.0",75,88,200,300,94,,,-0.98,-0.12,0.31
+B*,MS,"1, 8",Differential Clock (Gen4 and Gen5 support),75,88,375,500,94,,,-0.98,-0.15,0.08
+B*,MS,"1, 8","CSI DPHY, HDMI TCP, Type-C AUX, eDP",75,88,250,375,94,,,-0.98,-0.18,0.17
+B*,MS,"1, 8",PCIe Gen 4,81,88,375,375,91,,,-0.97,-0.16,0.18
+B*,MS,"1, 8",PCIe Gen 5,81,88,500,500,91,,,-0.97,-0.108,0.08
+B*,MS,"1, 8","DP TCP, Type-C TBT+USB+DP",81,88,500,500,91,,,-0.97,-0.11,0.08
+B*,MS,"1, 8",USB3.2,81,88,300,300,91,,,-0.97,-0.19,0.31
+B*,SL,"3, 6","CNVio2, CNVio3, Differential Clock (Gen3 and below support), PCIe Gen 1-3, Type-C USB, Type-C USB+DP, USB2.0",75,88,200,300,78,,,-0.9,0.19,0.026
+B*,SL,"3, 6",Differential Clock (Gen4 and Gen5 support),75,88,375,500,78,,,-0.9,0.006,0.001
+B*,SL,"3, 6","CSI DPHY, HDMI TCP, Type-C AUX, eDP",75,88,88,300,78,,,-0.9,1.71,0.026
+B*,SL,"3, 6","PCIe Gen 4, PCIe Gen 5",75,88,230,500,78,,,-0.9,0.1,0.001
+B*,SL,"3, 6","DP TCP, Type-C TBT+USB+DP",75,88,375,375,78,,,-0.9,0.006,0.006
+B*,SL,"3, 6",USB3.2,75,88,300,300,78,,,-0.9,0.026,0.026
+B*,DSL,3,"Differential Clock (Gen3 and below support), PCIe Gen 1-3, Type-C USB, Type-C USB+DP, USB2.0",75,88,200,300,87,,,-0.83,0.81,0.31
+B*,DSL,3,Differential Clock (Gen4 and Gen5 support),75,88,375,500,87,,,-0.83,0.16,0.05
+B*,DSL,3,"CSI DPHY, HDMI TCP, Type-C AUX, eDP",75,88,88,300,87,,,-0.83,2.92,0.31
+B*,DSL,3,PCIe Gen 4,75,88,375,375,87,,,-0.83,0.16,0.16
+B*,DSL,3,PCIe Gen 5,75,88,500,500,87,,,-0.83,0.05,0.05
+B*,DSL,3,"DP TCP, Type-C TBT+USB+DP",75,88,375,375,87,,,-0.83,0.16,0.16
+B*,DSL,3,USB3.2,75,88,300,300,87,,,-0.83,0.31,0.31
+B*,DSL,4,"Differential Clock (Gen3 and below support), PCIe Gen 1-3, Type-C USB, Type-C USB+DP, USB2.0",75,88,200,300,99,,,-0.73,1.53,0.65
+B*,DSL,4,Differential Clock (Gen4 and Gen5 support),75,88,375,500,99,,,-0.72,0.34,0.12
+B*,DSL,4,"CSI DPHY, HDMI TCP, Type-C AUX, eDP",75,88,88,300,99,,,-0.75,4.25,0.65
+B*,DSL,4,PCIe Gen 4,75,88,375,375,99,,,-0.72,0.34,0.34
+B*,DSL,4,"DP TCP, Type-C TBT+USB+DP",75,88,375,375,99,,,-0.72,0.34,0.34
+B*,DSL,4,USB3.2,75,88,300,300,99,,,-0.78,0.65,0.65
+M*,MS,"1, 8","CNVio2, CSI DPHY, PCIe Gen 1-3, Type-C AUX, Type-C USB, Type-C USB+DP, USB2.0",115,95,300,300,80,,,-0.91,-0.28,0.35
+M*,MS,"1, 8",Differential Clock (Gen3 and below support),115,95,300,375,80,,,-0.91,-0.28,0.21
+M*,MS,"1, 8",Differential Clock (Gen4 and Gen5 support),115,95,500,760,80,,,-0.91,-0.15,0.04
+M*,MS,"1, 8","HDMI TCP, PCIe Gen 4, eDP",115,95,500,500,80,,,-0.91,-0.15,0.11
+M*,MS,"1, 8",PCIe Gen 5,130,125,800,800,80,,,-0.87,-0.07,0.04
+M*,MS,"1, 8","DP TCP, Type-C TBT+USB+DP",115,95,500,500,80,,,-0.91,-0.15,0.11
+M*,MS,"1, 8",USB3.2,115,95,750,500,80,,,-0.91,-0.07,0.11
+M*,SL,"3, 6","CNVio2, CSI DPHY, HDMI TCP, PCIe Gen 1-3, Type-C AUX, Type-C USB, Type-C USB+DP, USB2.0, eDP",80,140,300,300,80,,,-0.88,0.03,0.03
+M*,SL,"3, 6",Differential Clock (Gen3 and below support),80,140,300,375,80,,,-0.88,0.03,0.006
+M*,SL,"3, 6",Differential Clock (Gen4 and Gen5 support),80,140,500,760,80,,,-0.88,0.001,0
+M*,SL,"3, 6","PCIe Gen 4, PCIe Gen 5",80,140,230,500,80,,,-0.88,0.106,0.001
+M*,SL,"3, 6","DP TCP, Type-C TBT+USB+DP",80,140,375,375,80,,,-0.88,0.006,0.006
+M*,SL,"3, 6",USB3.2,80,140,450,500,80,,,-0.88,0.001,0.001
+M*,DSL,3,"CSI DPHY, PCIe Gen 1-3, Type-C AUX, USB2.0",105,115,300,300,80,,,-0.78,0.34,0.34
+M*,DSL,3,Differential Clock (Gen3 and below support),105,115,300,375,80,,,-0.78,0.34,0.17
+M*,DSL,3,Differential Clock (Gen4 and Gen5 support),105,115,500,760,80,,,-0.78,0.06,0.006
+M*,DSL,3,PCIe Gen 4,105,115,375,375,80,,,-0.78,0.17,0.17
+M*,DSL,3,PCIe Gen 5,105,115,375,500,80,,,-0.78,0.17,0.06
+M*,DSL,3,"DP TCP, Type-C TBT+USB+DP, HDMI TCP, Type-C USB, Type-C USB+DP, eDP",105,115,375,375,80,,,-0.78,0.17,0.17
+M*,DSL,3,USB3.2,105,115,450,500,80,,,-0.78,0.09,0.06
+M*,DSL,4,"CSI DPHY, PCIe Gen 1-3, Type-C AUX, USB2.0",140,85,300,300,80,,,-0.66,0.61,0.61
+M*,DSL,4,"DP TCP, HDMI TCP, Type-C TBT+USB+DP, Type-C USB, Type-C USB+DP, eDP",140,85,375,500,80,,,-0.66,0.32,0.11
+M*,DSL,4,Differential Clock (Gen3 and below support),140,85,375,375,80,,,-0.66,0.32,0.32
+M*,DSL,4,Differential Clock (Gen4 and Gen5 support),140,85,540,760,80,,,-0.66,0.08,0.015
+M*,DSL,4,PCIe Gen 4,140,85,375,375,80,,,-0.66,0.32,0.32
+M*,DSL,4,PCIe Gen 5,140,85,600,760,80,,,-0.66,0.048,0.013
+M*,DSL,4,USB3.2,140,85,450,500,80,,,-0.66,0.17,0.11
+B*,DSL,4,PCIe Gen 5,88,88,500,500,95,,,-0.702,0.119,0.119
+M*,MS,"1, 8",CNVio3,115,95,375,750,80,,,-0.91,-0.22,0.04
+M*,SL,"3, 6",CNVio3,80,140,375,750,80,,,-0.94,0.006,0
+B*,MS,"1, 8",CSI CPHY,81,88,88,375,91,,,-1.002,0.519,0.176
+B*,SL,"3, 6",CSI CPHY,75,88,88,300,78,,,-0.916,1.713,0.027
+M*,SL,"3, 6",CSI CPHY,85,170,170,500,78,,,-0.886,0.341,0.001

@@ -1,2 +1,0 @@
-Note
-Thinner dielectric thickness has been chosen specifically on SL layers to ensure POR memory speeds can be met for DQ/DQS/WCK signals. Customers following thicker dielectrics from POR stack-up will need to ensure cross talk co-efficient are equal to or less than those specified in memory Tline spec.
