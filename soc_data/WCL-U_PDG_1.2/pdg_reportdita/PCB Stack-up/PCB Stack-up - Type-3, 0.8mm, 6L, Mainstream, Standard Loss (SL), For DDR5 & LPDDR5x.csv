@@ -1,0 +1,14 @@
+Routing Layer,Description,Tline Type,Description Memory,Tline Type Memory,Thickness (um),EDW,Dielectric Constant,Loss Tangent
+,S/M,None,S/M,None,13,,4,0.031
+1,"BO, Main Route, Power",MS,"BO, Power",MS,30,9.6,,
+,PP,None,PP,None,60,,3.9,0.015
+2,GND,GND/Power,GND,GND/Power,30,,,
+,CORE,None,CORE,None,75,,4.125,0.015
+3,"BO, Main Route, Power, GND",DSL,"BO, Main Route, Power",SL,30,9.6,,
+,PP,None,PP,None,300,,4.125,0.015
+4,"BO, Main Route, Power",DSL,GND,GND/Power,30,9.6,,
+,CORE,None,CORE,None,75,,4.125,0.015
+5,GND,GND/Power,"BO, Main Route",SL,30,9.6,,
+,PP,None,PP,None,60,,3.9,0.015
+6,"Main Route, Power, GND",MS,GND,GND/Power,30,9.6,,
+,S/M,None,S/M,None,13,,4,0.031
