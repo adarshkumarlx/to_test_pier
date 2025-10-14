@@ -1,7 +1,0 @@
-Trace,Tline Type,Routing,I/O,Trace Width (um),Data - Any (um),Clock - Any (um),Z (Default),Z (Min),Z (Max),A,"K, Data - Any","K, Clock - Any"
-B*,MS,"1, 10",UFS Reference Clock,75,175,175,59,,,-0.25,-2.1,-2.1
-B*,SL,"6, 8",UFS Reference Clock,75,175,175,43,,,-0.26,0.68,0.68
-B*,DSL,"3, 4",UFS Reference Clock,75,175,175,51,,,-0.23,2,2
-M*,MS,"1, 10",UFS Reference Clock,165,375,375,40,36,44,-0.21,-1.7,-1.7
-M*,SL,"6, 8",UFS Reference Clock,85,375,375,40,36,44,-0.25,0.02,0.02
-M*,DSL,"3, 4",UFS Reference Clock,120,375,375,40,36,44,-0.21,0.14,0.14

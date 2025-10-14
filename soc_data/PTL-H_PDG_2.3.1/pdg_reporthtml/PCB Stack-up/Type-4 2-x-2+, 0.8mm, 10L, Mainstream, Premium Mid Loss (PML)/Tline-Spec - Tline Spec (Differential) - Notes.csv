@@ -1,5 +1,0 @@
-Note
-"Routing Notes for CSI CPHY: (1) CPHY must be routed as a trio (2) If the port is supposed to support both CPHY and DPHY, it must be routed following CPHY guidelines (3) CPHY impedance target is 40 ohms single ended and 80 ohms differential (4) All traces in trio must follow same trace width (5) Intra-Pair guidelines must be used for trace to trace spacing in a trio (6) S-ES guidelines must be used for trio to trio in the same port (7) S-Non-ES must be used for port to port or CPHY to other interface"
-"For CNVio3 signal spacing and sequence, Refer the ""CNVio Signal Routing Sequence and CLK-to-CLK Spacing Recommendation"" Diagram in CNVio3 Section"
-"For Hayden Bridge/Gothic Bridge and Barlow Ridge post retimer channel, expected losses for Microstrip in dB/inch are (i) at 10 Ghz: -1.67 [Typical] -2 [Maximum] (ii) at 12.8 Ghz: -2.05 [Typical] -2.46 [Maximum] "
-"For Hayden Bridge/Gothic Bridge and Barlow Ridge post retimer channel, expected losses for L3/L8 Stripline in dB/inch are (i) at 10 Ghz: -1.54 [Typical] -1.86 [Maximum] (ii) at 12.8 Ghz: -1.87 [Typical] -2.22 [Maximum] "
