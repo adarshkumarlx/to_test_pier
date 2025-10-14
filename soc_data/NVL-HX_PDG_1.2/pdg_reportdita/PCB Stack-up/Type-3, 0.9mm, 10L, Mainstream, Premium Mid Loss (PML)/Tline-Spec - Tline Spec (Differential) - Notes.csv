@@ -1,0 +1,5 @@
+Note
+"Routing Notes for CSI CPHY: (1) CPHY must be routed as a trio (2) If the port is supposed to support both CPHY and DPHY, it must be routed following CPHY guidelines (3) CPHY impedance target is 40 ohms single ended and 80 ohms differential (4) All traces in trio must follow same trace width (5) Intra-Pair guidelines must be used for trace to trace spacing in a trio (6) S-ES guidelines must be used for trio to trio in the same port (7) S-Non-ES must be used for port to port or CPHY to other interface"
+CNVIo3 to non-CNVIo3 pair spacing of 10H (H=Dielectric Thickness) is required.  If cannot be achieved then GND shielding with proper stitching vias and 3H minimum spacing from GND shielding to CNVIo3 is required.
+"TCP TBT5, TCP DP and eDP AUX signals: If needed, B* MS S-ES(um)=250, S-Non-ES(um)=375 or greater, B* SL/DSL S-ES(um)=88, S-Non-ES(um)=300 or greater and M* MS/SL/DSL S-ES(um)/S-Non-ES(um)=300 or greater."
+"For DMI Gen5 M* MS routing, S-ES(um) can be relaxed to 500."

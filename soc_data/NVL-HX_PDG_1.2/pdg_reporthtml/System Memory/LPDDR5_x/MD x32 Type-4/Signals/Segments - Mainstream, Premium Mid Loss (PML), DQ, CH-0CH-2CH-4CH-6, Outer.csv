@@ -1,0 +1,4 @@
+Segment,Tline Type,Max Length Segment (mm),Max Length Segment Note
+BO,SL,4,Keep the 80um neckdown DQ BO as short as possible. Recommend to go back to 95um TW once passing the voids region.
+M,SL,,
+BI,SL,4,
