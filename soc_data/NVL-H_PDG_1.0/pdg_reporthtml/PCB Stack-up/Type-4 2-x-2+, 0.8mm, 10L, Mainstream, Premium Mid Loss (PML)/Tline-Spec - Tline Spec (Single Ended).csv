@@ -1,0 +1,27 @@
+Trace,Tline Type,Routing Layers,I/O,Trace Width (um),Data - Any (um),Clock - Any (um),Z (Default) (ohm),Z (Min) (ohm),Z (Max) (ohm),A (dB/inch @ 1GHz),"K, Data - Any (%)","K, Clock - Any (%)"
+B*,SL,"3, 8","CLINK, CNVi BRI and RGI, DMIC, eSPI, GSPI, HDA, I2C, I2S, I3C, ISH-SPI, LSX, Processor GPIO, SMLink, SoundWire, SPI0 Flash, SVID, THC-SPI, UART",67,75,175,44,,,-0.27,3.878,0.422
+B*,SL,"3, 8",Processor Sideband,67,75,75,44,,,-0.27,3.878,3.878
+B*,SL,"3, 8","Imaging Clock, SUSCLK, UFS Reference Clock",67,175,175,44,,,-0.27,0.422,0.422
+B*,SL,"3, 8","XTAL, RTC",67,200,1270,44,,,-0.27,0.243,0.006
+B*,SL,6,"CLINK, CNVi BRI and RGI, DMIC, eSPI, GSPI, HDA, I2C, I2S, I3C, ISH-SPI, LSX, Processor GPIO, SMLink, SoundWire, SPI0 Flash, SVID, THC-SPI, UART",75,75,175,44,,,-0.25,5.343,0.846
+B*,SL,6,Processor Sideband,75,75,75,44,,,-0.25,5.343,5.343
+B*,SL,6,"Imaging Clock, SUSCLK, UFS Reference Clock",75,175,175,44,,,-0.24,0.846,0.846
+B*,SL,6,"XTAL, RTC",75,200,1270,44,,,-0.24,0.535,0.005
+M*,MS,"1, 10","DMIC, eSPI, GSPI, HDA, I2C, I2S, ISH-SPI, LSX, Processor GPIO, SMLink, SoundWire, SVID, THC-SPI, UART",125,125,375,44,39.6,48.4,-0.24,-2.493,-1.559
+M*,MS,"1, 10",CNVi BRI and RGI,125,250,250,44,39.6,48.4,-0.23,-2.227,-2.227
+M*,MS,"1, 10",Processor Sideband,125,125,125,44,39.6,48.4,-0.24,-2.493,-2.493
+M*,MS,"1, 10","Imaging Clock, SUSCLK, UFS Reference Clock",125,375,375,44,39.6,48.4,-0.23,-1.559,-1.559
+M*,MS,"1, 10","CLINK, I3C, SPI0 Flash",125,250,375,44,39.6,48.4,-0.23,-2.227,-1.559
+M*,MS,"1, 10","XTAL, RTC",125,200,1775,44,39.6,48.4,-0.23,-2.468,-0.066
+M*,SL,"3, 8","DMIC, eSPI, GSPI, HDA, I2C, I2S, ISH-SPI, LSX, Processor GPIO, SMLink, SoundWire, SVID, THC-SPI, UART",67,125,375,44,39.6,48.4,-0.27,1.273,0.011
+M*,SL,"3, 8",CNVi BRI and RGI,67,250,250,44,39.6,48.4,-0.27,0.083,0.083
+M*,SL,"3, 8",Processor Sideband,67,125,125,44,39.6,48.4,-0.27,1.273,1.273
+M*,SL,"3, 8","Imaging Clock, SUSCLK, UFS Reference Clock",67,375,375,44,39.6,48.4,-0.27,0.011,0.011
+M*,SL,"3, 8","CLINK, I3C, SPI0 Flash",67,250,375,44,39.6,48.4,-0.27,0.083,0.011
+M*,SL,"3, 8","XTAL, RTC",67,200,1775,44,39.6,48.4,-0.27,0.243,0.006
+M*,SL,6,"DMIC, eSPI, GSPI, HDA, I2C, I2S, ISH-SPI, LSX, Processor GPIO, SMLink, SoundWire, SVID, THC-SPI, UART",75,125,375,44,39.6,48.4,-0.24,2.119,0.026
+M*,SL,6,CNVi BRI and RGI,75,250,250,44,39.6,48.4,-0.24,0.213,0.213
+M*,SL,6,Processor Sideband,75,125,125,44,39.6,48.4,-0.24,2.119,2.119
+M*,SL,6,"Imaging Clock, SUSCLK, UFS Reference Clock",75,375,375,44,39.6,48.4,-0.24,0.026,0.026
+M*,SL,6,"CLINK, I3C, SPI0 Flash",75,250,375,44,39.6,48.4,-0.24,0.213,0.026
+M*,SL,6,"XTAL, RTC",75,200,1775,44,39.6,48.4,-0.24,0.535,0.005

@@ -1,0 +1,7 @@
+Segment,Tline Type,Max Length Segment (mm),Max Length Segment Note
+BO1,MS,0.5,
+BO2,SL,7,
+BO3,SL,,13-BO2
+M,SL,,
+BI1,SL,2,
+BI2,MS,0.6,
